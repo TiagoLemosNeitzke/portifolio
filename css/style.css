@@ -1,24 +1,19 @@
-av {
-    background-color: #000;
-}
-
 ul {
     border-radius: 5px;
     padding      : 10px 40px;
 }
 
-ul li {
+li {
     font-weight: 600;
     margin-left: 20px;
 }
 
-a.link-hover:hover {
-    transform: scale(1.2)
+li:hover{
+    transform: scale(1.1);
 }
 
-div.active{
-    width: auto;
-    height: 3px;
+.active {
+    border: 1px solid #fff;
 }
 
 .icon-bg {
