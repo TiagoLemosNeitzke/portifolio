@@ -1,3 +1,7 @@
+hr{
+    color: #dc3545;
+}
+
 ul {
     border-radius: 5px;
     padding      : 10px 40px;
@@ -8,7 +12,7 @@ li {
     margin-left: 20px;
 }
 
-li:hover{
+li:hover {
     transform: scale(1.1);
 }
 
@@ -24,6 +28,39 @@ li:hover{
 }
 
 .icon-bg:hover {
-    background-color: #dc3545;
-    color           : #fff !important;
+    background-color: #fff;
+    color           : #dc3545 !important;
+}
+
+section div.container {
+    z-index : 5;
+    position: relative;
+}
+
+section img.linear-gradient {
+    top             : 20em;
+    position        : fixed;
+    z-index         : 0;
+    background-image: linear-gradient(to bottom, rgba(255, 0, 0, .6), rgba(255, 0, 0, .7));
+}
+
+div.bg-cover {
+    width           : 100%;
+    height          : 350px;
+    background-image: linear-gradient(to bottom, rgba(220, 53, 69, 1), rgba(255, 0, 0, .6));
+    z-index         : 0;
+    position        : fixed;
+    top             : 5.4em;
+}
+
+div.card-home {
+    background-image: linear-gradient(to bottom, rgba(220, 53, 69, .9), rgba(255, 0, 0, .6));
+}
+
+.transform-1:hover {
+    transform: scale(1.2);
+}
+
+.text-hover:hover {
+    color: #dc3545 !important;
 }
